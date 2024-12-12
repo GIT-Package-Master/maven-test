@@ -42,20 +42,11 @@
 		</dependency>
 	</dependencies>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
-
 	<distributionManagement>
 		<repository>
 			<id>github</id>
 			<name>GitHub Packages</name>
-			<url>https://maven.pkg.github.com/Alex-mur/MIFI_DevOps_Module5</url>
+			<url>https://maven.pkg.github.com/GIT-Package-Master/maven-test</url>
 		</repository>
 	</distributionManagement>
 </project>
