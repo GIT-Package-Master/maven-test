@@ -6,7 +6,7 @@
         <groupId>org.custom</groupId>
         <artifactId>maven-test-package-1.0</artifactId>
         <version>3.4.0</version>
-        <relativePath/>
+        <relativePath/> <!-- Adjust if necessary -->
     </parent>
     <groupId>ru.kazan</groupId>
     <artifactId>maven-test-package-1.0</artifactId>
@@ -35,4 +35,10 @@
         </dependencies>
     </dependencyManagement>
 
+    <repositories>
+        <repository>
+            <id>custom-repo</id>
+            <url>https://github.com/GIT-Package-Master/maven-test</url>
+        </repository>
+    </repositories>
 </project>
