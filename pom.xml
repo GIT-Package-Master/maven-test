@@ -42,7 +42,7 @@
   <repositories>
     <repository>
       <id>gh-stylebi</id>
-      <url>https://maven.pkg.github.com/inetsoft-technology/stylebi</url>
+      <url>https://maven.pkg.github.com/GIT-Package-Master/maven-test</url>
       <releases>
         <enabled>true</enabled>
       </releases>
@@ -51,13 +51,6 @@
       </snapshots>
     </repository>
   </repositories>
-
-  <pluginRepositories>
-    <pluginRepository>
-      <id>groovy-plugins-release</id>
-      <url>https://groovy.jfrog.io/artifactory/plugins-release</url>
-    </pluginRepository>
-  </pluginRepositories>
 
   <properties>
     <avro.version>1.11.3</avro.version>
