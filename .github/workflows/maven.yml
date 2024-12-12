@@ -27,7 +27,11 @@ jobs:
           distribution: temurin
           java-version: 17
           cache: maven
-
+      - name: Make sure file(s) are accessible
+        run: |
+          chmod +x ./mvnw
+          echo "we will put other files here"
+      
       - name: Clean
         run: |
           ./mvnw clean
